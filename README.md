@@ -1,4 +1,16 @@
 # LittleBreak
+
+Lerna有很多强大的CLI命令，我这里用的有:
+lerna init: 初始化项目
+lerna bootstrap: 自动构建项目
+lerna ls: 列出当前项目所有包
+lerna clean: 清理node_modules文件夹
+lerna add: 添加依赖（类似npm install)
+lerna publish: 发版
+
+yarn run commit 代码提交
+
+
 lerna管理前端模块最佳实践
 2.1 安装
 推荐全局安装，因为会经常用到 lerna 命令
