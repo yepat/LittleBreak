@@ -109,3 +109,30 @@ yarn add -D husky
 }
 
 "commit-msg"是git提交时校验提交信息的钩子，当触发时便会使用 commitlit 来校验。安装配置完成后，想通过 git commit 或者其它第三方工具提交时，只要提交信息不符合规范就无法提交。从而约束开发者使用 yarn run commit 来提交。
+
+
+feat:     ✨  A new feature (note: this will indicate a release)  一个新特性（注意：这表示发布）
+fix:      🛠  A bug fix (note: this will indicate a release)  错误修复（注意：这表示发布）
+docs:     Documentation only changes  仅文档更改
+style:    Changes that do not affect the meaning of the code 不影响代码含义的更改(空白、格式、缺少分号等)
+(white-space, formatting, missing semi-colons, etc) 
+refactor: A code change that neither fixes a bug nor adds a feature  既不修复bug也不添加特性的代码更改
+perf:     A code change that improves performance  提高性能的代码更改
+test:     Adding missing tests  添加缺少的测试
+chore:    Changes to the build process or auxiliary tools  对生成过程或辅助工具的更改,例如生成库和文档
+and libraries such as documentation generation 
+revert:   Revert to a commit  恢复为提交
+❯ WIP:      Work in progress  正在进行的工作
+
+
+? Denote the scope of this change:  表示此更改的范围
+? Write a short, imperative tense description of the change: 写一个简短的，祈使时态的变化描述
+文档修改
+? Provide a longer description of the change (optional). Use "|" to break new line: 提供更改的详细说明（可选）。使用“|”换行
+
+? List any BREAKING CHANGES (if none, leave blank): 列出任何中断更改（如果没有，留空）
+
+? List any ISSUES CLOSED by this change (optional). E.g.: #31, #34: 列出此更改关闭的所有问题（可选）。E、 g.：#31，#34
+
+? The packages that this commit has affected (0 detected) 此提交已影响的包（检测到0）
+(Press <space> to select, <a> to toggle all, <i> to invert selection) 按<space>选择，<a>切换全部，<i>反转选择
